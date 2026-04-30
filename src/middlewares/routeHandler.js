@@ -12,5 +12,5 @@ export function routeHandler(request, response) {
     return route.controller({ request, response, database });
   }
 
-  return response.writeHead(404)
+  return response.writeHead(404).end();
 }
