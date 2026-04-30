@@ -1,0 +1,20 @@
+{
+  "name": "ticket-management-system",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de tickets de suporte técnico",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpfreitas-dev/ticket-management-system.git"
+  },
+  "author": "João Paulo Freitas Pinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpfreitas-dev/ticket-management-system/issues"
+  },
+  "homepage": "https://github.com/jpfreitas-dev/ticket-management-system#readme"
+}
