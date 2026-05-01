@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "node --watch src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/jpfreitas-dev/ticket-management-system/issues"
   },
-  "homepage": "https://github.com/jpfreitas-dev/ticket-management-system#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "homepage": "https://github.com/jpfreitas-dev/ticket-management-system#readme"
 }
